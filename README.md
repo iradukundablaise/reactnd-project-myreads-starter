@@ -18,16 +18,16 @@ To get started developing right away:
 ├── public
 │   ├── favicon.ico # React Icon
 │   └── index.html
-├── components
-|   ├── Book.js # A book component
-|   ├── BookGrid.js # Grid that have books side by side
-|   ├── Home.js # Have all the shelves and the fab button
-|   ├── SearchBook.js # Search book component
-|   ├── Shelf.js # Have books
-|   ├── ShelfBook.js # Have the ShelfChanger and a Book
-|   ├── ShelfChanger.js # Holds the floating circle component to change the book state
-|   ├── index.js # Where all the components are exported
 └── src
+    ├── components
+    │   ├── Book.js # A book component
+    │   ├── BookGrid.js # Grid that have books side by side
+    │   ├── Home.js # Have all the shelves and the fab button
+    │   ├── SearchBook.js # Search book component
+    │   ├── Shelf.js # Have books
+    │   ├── ShelfBook.js # Have the ShelfChanger and a Book
+    │   ├── ShelfChanger.js # Holds the floating circle component to change the book state
+    │   ├── index.js # Where all the components are exported
     ├── App.css # Styles for your app.
     ├── App.js # Contains static HTML right now.
     ├── App.test.js # Used for testing. Provided with Create React App. 
