@@ -43,9 +43,9 @@ To get started developing right away:
 ## ScreenShots
 
 #### Home
-![alt]()
-#### Search with result
-![alt]()
+![alt](https://i.imgur.com/zldniQD.png)
+#### Search
+![alt](https://i.imgur.com/pwhTbTT.png)
 
 ## Backend Server
 
