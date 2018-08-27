@@ -3,17 +3,13 @@ import '../App.css';
 import {BookGrid} from './BookGrid';
 import PropTypes from 'prop-types';
 
-export class ShelfBook extends React.Component {
-  render() {
-    return (
-      <div className="bookshelf-books">
-        <BookGrid 
-          books={this.props.books}
-          onShelfChange={this.props.onShelfChange} />
-      </div>
-    )
-  }
-}
+export const ShelfBook = ({books, onShelfChange}) => (
+  <div className="bookshelf-books">
+    <BookGrid 
+      books={books}
+      onShelfChange={onShelfChange} />
+  </div>
+)
 
 ShelfBook.propTypes = {
   books: PropTypes.array.isRequired,

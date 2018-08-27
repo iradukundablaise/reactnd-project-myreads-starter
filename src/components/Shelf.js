@@ -3,19 +3,14 @@ import '../App.css';
 import {ShelfBook} from './ShelfBook';
 import PropTypes from 'prop-types';
 
-export class Shelf extends React.Component {
-  
-  render() {
-    return (
-      <div className="bookshelf">
-      <h2 className="bookshelf-title">{this.props.shelfTitle}</h2>
-        <ShelfBook 
-          books={this.props.books} 
-          onShelfChange={this.props.onShelfChange} />
-    </div>
-    )
-  }
-}
+export const Shelf = ({books, shelfTitle, onShelfChange}) => (
+  <div className="bookshelf">
+    <h2 className="bookshelf-title">{shelfTitle}</h2>
+      <ShelfBook 
+        books={books} 
+        onShelfChange={onShelfChange} />
+  </div>
+)
 
 Shelf.propTypes = {
   shelfTitle: PropTypes.string.isRequired,
